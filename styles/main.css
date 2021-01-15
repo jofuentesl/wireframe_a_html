@@ -1,6 +1,33 @@
+@import url(font-awesome.css);
+@import url(header.css);
 
 body {
     max-width: 1000px;
     border: 1px solid;
     margin: 0 auto;
+}
+
+
+.block__nav__main {
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0px;
+    list-style: none;
+}
+.block__nav__item {
+    width: 20%;
+    text-align: center;
+}
+
+.block__1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block__article {
+    width: 33%;
+    height: 190px;
+    background-color: blue;
 }
