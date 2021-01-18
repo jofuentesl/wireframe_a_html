@@ -1,0 +1,15 @@
+/* Estios para la pagina footer.php */
+
+.footer__block {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-top: solid 5px #f56a6a;
+}
+
+.footer__block a {
+    font-weight: bold;
+    color: #7F888F;
+    text-decoration: none;
+}

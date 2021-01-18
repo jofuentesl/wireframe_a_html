@@ -1,24 +1,40 @@
+/*Estilos para la parte pincipal de la página */
+
+/* Importamos css a css principal*/
 @import url(font-awesome.css);
 @import url(header.css);
+@import url(footer.css);
 
 body {
     max-width: 1000px;
-    border: 1px solid;
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
-
 .block__nav__main {
-    background-color: yellow;
+    height: 48px;
+    margin: 22px 0 0 26px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-left: 0px;
     list-style: none;
 }
+
 .block__nav__item {
     width: 20%;
     text-align: center;
+    text-transform: uppercase;
+}
+
+.block__nav__item a {
+    color: #7F888F;
+    text-decoration: none;
+}
+
+.block__nav__item a:hover {
+    color: #F56A6A;
 }
 
 .block__1 {
@@ -29,5 +45,84 @@ body {
 .block__article {
     width: 33%;
     height: 190px;
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+.block__article__item {
+    background-color: #FFF;
+    padding: 0 5px;
+}
+.block_article_btn {
+appearance: none;
+-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+background-color: transparent;
+border-radius: 0.375em;
+border: 0;
+border-bottom-color: currentcolor;
+box-shadow: inset 0 0 0 2px #f56a6a;
+color: #f56a6a !important;
+cursor: pointer;
+display: inline-block;
+font-size: 0.8em;
+font-weight: 700;
+height: 3.5em;
+letter-spacing: 0.075em;
+line-height: 3.5em;
+padding: 0 2.25em;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+white-space: nowrap;
+}
+
+.block__article__item--style {
+    background-color: #FFF;
+}
+
+.block_article_btn:hover {
+    background-color: rgba(245, 106, 106, 0.05);
+}
+
+.block__article--1 {
+    background-image: url(../images/img1.jpg);
+}   
+
+.block__article--2 {
+    background-image: url(../images/img2.jpg);
+}
+
+.block__article--3 {
+    background-image: url(../images/img3.jpg);
+}
+.block__2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.block2__item {
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.font__awesome {
+    margin-right: 15px;
+    font-size: 2rem;
+}
+
+.block2__item__img {
+    width: 400px;
+    height: auto;
+}
+
+.block2__item__p {
+    color: #7F888F;
 }

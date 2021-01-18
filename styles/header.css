@@ -1,4 +1,4 @@
-
+/* Estios para la pagina header.php */
 .block__header {
     height: 120px;
     display: flex;
@@ -6,6 +6,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: solid 5px #f56a6a;
+    background-image: url('../images/header/bg.jpg');
 
 }
 .block__header__logo {
@@ -34,9 +35,11 @@
     align-items: center;
     margin-left: 10px;
 }
+
 .rrss__nav__item:hover {
     background: #F56A6A;
 }
+
 .rrss__nav__item a { 
     font-size: 1.2rem;
     color: #000000;
